@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  
+  .todo-app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+  }
+  
+  h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .task:hover .delete-icon {
+    display: inline;
+  }
+  
+  .delete-icon {
+    display: none;
+    cursor: pointer;
+    color: #ff0000;
+  }
+  
+  .no-tasks {
+    text-align: center;
+    color: #888;
+    padding: 10px;
+  }
+  
+  .task-counter {
+    text-align: left;
+    color: #888;
+  font-size: 12px;
+  margin-top: 10px;
+}
+  
