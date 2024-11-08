@@ -9,7 +9,7 @@ import "../styles/index.css";
 import App from "./component/App.jsx";
 
 //render your react application
-/*ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);*/
+
 
 const root = ReactDOM.createRoot(document.querySelector("#app"));
 root.render(<App />);
